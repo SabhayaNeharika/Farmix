@@ -1,0 +1,20 @@
+.imgg {
+    width: 1920px;
+    height: 526.5px;
+  }
+  
+.about {
+    color: #767e17;
+    transform: translateY(-550%);
+    font-size: 60px;
+    margin-left: 600px;
+  }
+  .dd{
+    width: 370px;
+height: 570px;
+border-radius: 10px;
+}
+.agri{
+  width: 200px;
+  height: 100px;
+}
