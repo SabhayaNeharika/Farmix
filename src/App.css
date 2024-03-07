@@ -27,7 +27,7 @@ html {
 .navbar {
   display: flex;
   list-style: none;
-  background-color: rgb(32, 151, 64);  
+  background-color: rgb(32, 151, 64);
   margin-bottom: 0;
 }
 
@@ -40,12 +40,14 @@ html {
 .navbar li a:hover {
   color: #E54925;
 }
-.nav-link{
+
+.nav-link {
   color: #fff !important;
   width: 100px;
   height: 50px;
 }
-.nav-item{
+
+.nav-item {
   padding: 10px;
   font-size: 18px;
   font-weight: 600;
@@ -80,11 +82,38 @@ h5 {
   color: #ffffff;
 }
 
+.main-container {
+  background-image: url('../src/images/mainbg.png');
+  height: 810px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 120px;
+  padding-left: 300px;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+h3 {
+  padding-top: 200px;
+  padding-left: 300px;
+  font-family: 'Your Grace';
+  color: #ffffff;
+}
+
+h5 {
+  padding-left: 300px;
+  font-family: 'Your Grace';
+  color: #ffffff;
+}
+
 .main-container img {
   margin-left: 700px;
 }
 
-.carddd {
+.cardd {
   margin-left: 200px;
   background-color: #ffffff;
   height: 264px;
@@ -95,37 +124,38 @@ h5 {
   box-shadow: 10px 10px 10px 1px #363030;
 }
 
-.carddd img {
+.cardd img {
   height: 90px;
   width: 90px;
   margin-left: 150px;
 }
 
-.fe {
+h2 {
   text-align: center;
   color: #EEC044;
   font-family: "Covered By Your Grace", cursive;
 }
 
-.we {
+h6 {
   text-align: center;
   font-size: 24px;
 }
-.cardd {
+
+.card {
   border: none;
   width: 1200px;
   height: 603.19px;
   margin: 0 auto;
 }
 
-.ttt {
+.t1 {
   width: 550px;
   height: 601px;
   left: 15px;
   border-radius: 50%
 }
 
-.tt {
+.t2 {
   transform: translateY(-50%);
   border-radius: 50%;
   border: 15px;
@@ -133,9 +163,10 @@ h5 {
   border-color: #ffffff;
 }
 
-.card-title {
+.card-titleee {
+  color: #000000;
   font-size: 48px;
-  padding-left: 1px;
+  padding-left: 200px;
 }
 
 .get {
@@ -161,7 +192,7 @@ h4 {
   transform: translateY(-140px);
 }
 
-.bttn {
+.btn1 {
   background-color: rgb(11, 154, 11);
   margin-left: 200px;
   width: 200px;
@@ -170,7 +201,7 @@ h4 {
   color: #fff;
 }
 
-.btn:hover {
+.btn1:hover {
   background: #EEC044;
   color: #061161;
   transition: 0.5s;
@@ -205,9 +236,9 @@ h4 {
   text-align: center;
 }
 
-#row {
-  margin-left: 130px;
-  margin-right: 130px;
+#row1 {
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .video {
@@ -229,7 +260,7 @@ h4 {
   width: 200px;
 }
 
-.sname {
+.snamee {
   font-size: 30px;
   text-align: left;
   font-weight: bolder;
@@ -240,6 +271,7 @@ h4 {
   font-size: 20px;
   text-align: left;
   color: #71a1b6;
+  padding-top: 900px;
 }
 
 .card-last {
@@ -263,21 +295,11 @@ h4 {
   color: #1F1E17;
   font-weight: bolder;
 }
-.b3{
+
+.b3 {
   padding-left: 50px;
 }
-.blog{
-  margin-top: 200px;
-}
-.ourr{
-  margin-left: 200px;
-  color: #EEC044;
-  font-family: "Covered By Your Grace", cursive;
 
-}
-@media (max-width: 768px) {
-  /* Styles for screens up to 768px wide */
-  .b1 {
-    color: #E54925; /* Adjust font size for smaller screens */
-  }
+.blog {
+  margin-top: 200px;
 }

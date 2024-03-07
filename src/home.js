@@ -1,8 +1,9 @@
+import pan from './images/pan.png'
 import c1 from './images/c1.png'
 import c2 from './images/c2.png'
 import c3 from './images/c3.png'
-import c4 from './images/c4.webp.png'
-import c5 from './images/c5.webp.png'
+import c4 from './images/c4.png'
+import c5 from './images/c5.png'
 import c6 from './images/c6.png'
 import c7 from './images/c7.png'
 import c8 from './images/c8.png'
@@ -15,7 +16,7 @@ import c14 from './images/c14.png'
 import c15 from './images/c15.png'
 import c16 from './images/c16.png'
 import cart1 from './images/cart1.png'
-import cart2 from './images/cart2.png'
+import cart2 from './images/Vector2.png'
 import icon from './images/Icon.png'
 import i1 from './images/tik1.png'
 import i2 from './images/tik2.png'
@@ -35,43 +36,44 @@ function Home() {
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br />
                     luctus nec ullamcorper mattis, pul
                     vinar dapibus leo.</h5>
+                <img src={pan} alt='img' />
             </div >
 
             <div className="row">
                 <div className="col-md-3">
-                    <div className="carddd">
-                        <h2 className='fe'>Feature 01</h2> <br />
-                        <h6 className='we'>We're using a <br /> new technology</h6><br />
+                    <div className="cardd">
+                        <h2>Feature 01</h2> <br />
+                        <h6>We're using a <br /> new technology</h6><br />
                         <img src={c1} alt='img' />
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div className="carddd">
-                        <h2 className='fe'>Feature 02</h2><br />
-                        <h6 className='we'>Good in smart <br /> organic services</h6><br />
+                    <div className="cardd">
+                        <h2>Feature 02</h2><br />
+                        <h6>Good in smart <br /> organic services</h6><br />
                         <img src={c2} alt='img' />
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div className="carddd">
-                        <h2 className='fe'>Feature 03</h2><br />
-                        <h6 className='we'>Reforming <br />in the systems</h6><br />
+                    <div className="cardd">
+                        <h2>Feature 03</h2><br />
+                        <h6>Reforming <br />in the systems</h6><br />
                         <img src={c3} alt='img' />
                     </div>
                 </div>
             </div>
 
-            <div className="cardd">
+            <div className="card">
                 <div className="card mb-3">
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src={c4} className="ttt" alt="images" />
-                            <img src={c5} className="tt" alt="images" />
+                            <img src={c4} className="t1" alt="images" />
+                            <img src={c5} className="t2" alt="images" />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                                <h2 className='ourr'>Our Introduction</h2>
-                                <h5 className="card-title">Agriculture & Organic Product Farm</h5>
+                                <h2>Our Introduction</h2>
+                                <h5 className="card-titleee">Agriculture & Organic Product Farm</h5>
                                 <p className="there">Agrios is the largest global organic farm.</p>
                                 <p className="card-text"><small class="text-body-secondary"></small></p>  <br />
                                 <p className="are">There are many variations of passages of lorem ipsum available but the
@@ -83,7 +85,7 @@ function Home() {
                                 <h4 id='grows'>Tips for ripening Your Fruits</h4>
                                 <h4><img src={icon} style={{ marginRight: 20 }} alt='img' />Lorem Ipsum is not simply random text.</h4>
                                 <h4><img src={icon} style={{ marginRight: 20 }} alt='img' />Making this the first true generator on the internet.</h4>
-                                <button className="bttn">Discover More</button>
+                                <button className="btn1">Discover More</button>
                             </div>
                         </div>
                     </div>
@@ -116,7 +118,7 @@ function Home() {
             <div className="explor">
                 <h2>Recently Completed</h2>
                 <p className="what">Explore Projects </p> <br />
-                <div className="row" id="row">
+                <div className="row" id="row1">
                     <div className="col-md-4">
                         <img src={c10} alt='img' />
                     </div>
@@ -143,8 +145,8 @@ function Home() {
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src={f1} alt='img' />
                         <div class="carousel-caption d-none d-md-block">
-                            <p className="sname">Lisa M</p>
-                            <p className="spar">There are many variations of passages of available but the <br />
+                            <p className='snamee'>Lisa M</p>
+                            <p className='spar'>There are many variations of passages of available but the <br />
                                 majority have suffered alteration in some form by injected <br />
                                 humor or random word which don't look even.</p>
                         </div>
@@ -152,8 +154,8 @@ function Home() {
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src={f2} alt='img' />
                         <div class="carousel-caption d-none d-md-block">
-                            <p className="sname">james de franco</p>
-                            <p className="spar">There are many variations of passages of available but the <br />
+                            <p className='snamee'>james de franco</p>
+                            <p className='spar'>There are many variations of passages of available but the <br />
                                 majority have suffered alteration in some form by injected <br />
                                 humor or random word which don't look even.</p>
                         </div>
@@ -161,8 +163,8 @@ function Home() {
                     <div class="carousel-item">
                         <img src={f3} alt='img' />
                         <div class="carousel-caption d-none d-md-block">
-                            <p className="sname">Bonnie Tolbert</p>
-                            <p className="spar">There are many variations of passages of available but the <br />
+                            <p className='snamee'>Bonnie Tolbert</p>
+                            <p className='spar'>There are many variations of passages of available but the <br />
                                 majority have suffered alteration in some form by injected <br />
                                 humor or random word which don't look even.</p>
                         </div>
@@ -197,7 +199,7 @@ function Home() {
                                 <p className="b3">There are variation You need to be sure there is anything hidden in the middle of text.</p>
                                 <p className="b1"><img src={i3} alt='img' /> Quality Products </p>
                                 <p className="b3">There are variation You need to be sure there is anything hidden in the middle of text.</p>
-                                <button className="btn">Discover More</button>
+                                <button className="btn1">Discover More</button>
                             </div>
                         </div>
                     </div>
