@@ -1,0 +1,15 @@
+.sec-container{
+    background-image: url('../images/mainbg.png');
+    height: 500px;
+    width: 100%;
+}
+.whatt{
+    font-size: 30px;
+    color: #1F1E17;
+    font-weight: bolder;
+
+}
+#newsrow{
+    text-align: center;
+    margin-top: 100px;
+}

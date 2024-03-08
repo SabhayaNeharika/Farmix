@@ -25,7 +25,7 @@ const Signup = () => {
       <div class="forms-container">
         <div class="signin-signup">
           <form action="#" class="sign-in-form">
-            <h2 class="title">SIGN UP</h2>
+            <h2 class="titlee">SIGN UP</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
               {/* <input type="text" placeholder="E-mail" /> */}

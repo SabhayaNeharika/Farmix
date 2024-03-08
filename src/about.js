@@ -28,16 +28,16 @@ function About() {
                         <div className="col-md-8">
                             <div className="card-body">
                                 <p className="get">Get to Know Us</p>
-                                <h5 className="card-title">The Best Agriculture<br /> Market</h5>
+                                <h5 className="card-titleee">The Best Agriculture Market</h5>
                                 <p className="there">There are many variations of passa of lorem available, but <br />the majority have suffered alteration.</p>
                                 <p className="card-text"><small class="text-body-secondary"></small></p>
                                 <p className="are">There are many variations of passages of lorem ipsum available but the
                                     <br />majority have suffered alteration in some form by injected humor or
-                                    <br />random word which don’t look even.</p>
+                                    <br />random word which don’t look even.</p> <br/><br/><br/><br/><br/><br/>
                                 <h4><img src={Frame} className="icon" alt="image" />Suspe ndisse suscipit sagittis leo</h4>
                                 <h4><img src={Frame} className="icon" alt="image" />Entum estibulum disgnissim posuere</h4>
                                 <h4><img src={Frame} className="icon" alt="image" />Lorem Ipsum on the tend to repeat</h4>
-                                <button className="btnn">Discover More</button>
+                                <button className="btn2">Discover More</button>
                             </div>
                         </div>
                     </div>

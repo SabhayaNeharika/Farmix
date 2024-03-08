@@ -33,7 +33,7 @@ const Login = () => {
                 <div class="forms-container">
                     <div class="signin-signup">
                         <form action="#" class="sign-in-form">
-                            <h2 class="title">LOGIN</h2>
+                            <h2 class="titlee">LOGIN</h2>
                             <div class="input-field">
                                 <i class="fas fa-user"></i>
                                 <input
