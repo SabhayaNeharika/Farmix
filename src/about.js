@@ -15,7 +15,9 @@ import mainbg from './images/mainbg.png'
 function About() {
     return (
         <>
-            <div className='about'>
+            <div className="sec-container">
+            <h3>Welcome to agriculture Market Place</h3>
+                <h1 style={{ paddingTop: 10, paddingLeft: 390 }}>ABOUT</h1>
             </div>
             <div className="card">
                 <div className="card mb-3">
