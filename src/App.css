@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,26 +20,33 @@ html {
   margin-top: 15px;
 }
 
+.nav li {
+  margin: 10px;
+}
+
 .navbar {
   display: flex;
   list-style: none;
   background-color: rgb(32, 151, 64);
 }
 
-.nav-link:hover {
-  color: #E54925 !important;
+.navbar li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
 }
 
-.nav-link {
+.navbar li a:hover {
+  color: #E54925;
+}
+.nav-link{
   color: #fff !important;
   width: 100px;
   height: 50px;
-  text-align: center;
 }
-
-.nav-item {
-  padding: 20px;
-  font-size: 20px;
+.nav-item{
+  padding: 10px;
+  font-size: 18px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
 
@@ -107,11 +114,12 @@ h5 {
   margin-left: 200px;
   background-color: #ffffff;
   height: 264px;
-  width: 370px;
+  width: 350px;
   transform: translateY(-25%);
   border-radius: 30px;
   border: 2px;
   box-shadow: 10px 10px 10px 1px #363030;
+  
 }
 
 .cardd img {
@@ -120,7 +128,7 @@ h5 {
   margin-left: 150px;
 }
 
-h2 {
+.fe {
   text-align: center;
   color: #EEC044;
   font-family: "Covered By Your Grace", cursive;
@@ -617,27 +625,13 @@ h4 {
 .btn3 {
   background-color: rgb(11, 154, 11);
   margin-left: 200px;
-  width: 200px;
-  height: 50px;
-  color: #fff;
+  color: #EEC044;
+  font-family: "Covered By Your Grace", cursive;
+
 }
-
-.btn3:hover {
-  background: #EEC044;
-  color: #061161;
-  transition: 0.5s;
-}
-
-@media (min-width: 568px) {
-
-  .t1,
-  .t2 {
-    max-width: auto;
-    height: auto;
-    margin: auto;
-  }
-
-  .card-titleee {
-    text-align: center;
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px wide */
+  .b1 {
+    color: #E54925; /* Adjust font size for smaller screens */
   }
 }
