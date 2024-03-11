@@ -61,10 +61,9 @@ const Login = () => {
                 <div className="panels-container">
                     <div className="panel left-panel">
                         <div className="content">
-                            <h3>New here ?</h3>
+                            <h3>One Of Us ?</h3>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-                                ex ratione. Aliquid!
+                                Welcome Back ! <br/> To Our Web-site. Please Enter Your Username & Password For Login Into The System.
                             </p>
 
                             <button class="btn transparent" id="sign-in-btn" onClick={routeChange} > SIGNUP</button>

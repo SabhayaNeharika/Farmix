@@ -9,34 +9,35 @@ function News() {
     return (
         <>
             <div className="sec-container">
-            <h3>Welcome to agriculture Market Place</h3>
+                <h3>Welcome to agriculture Market Place</h3>
                 <h1 style={{ paddingTop: 10, paddingLeft: 390 }}>NEWS</h1>
             </div>
 
             <div className="newcard">
                 <div className="row" id="newsrow">
 
-                    <div className="col"> 
+                    <div className="col">
                         <img src={news1} alt='img' />
                         <p className="whatt">The Future of Farming, Smart Irrigation Solutions</p>
-                        <p>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are many variations of <br />
-                            passages of Lorem Ipsum available, but the majority have alteration in some injected or words which <br />
-                            don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you</p>
+                        <p>Smart irrigation systems can help improve crop yield by delivering water and nutrients to plants at the right time  <br />
+                            and in the right amounts. This can lead to healthier plants and higher yields.
+                            Smart farming is the future of agriculture.  <br /> It is an approach to farming that uses technology to increase yields,
+                            improve efficiency, and reduce inputs</p>
                     </div>
 
-                    <div className="col"><br/><br/>
+                    <div className="col"><br /><br />
                         <img src={news2} alt='img' />
-                        <p className="whatt">The Future of Farming, Smart Irrigation Solutions</p>
-                        <p>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are many variations of <br />
-                            passages of Lorem Ipsum available, but the majority have alteration in some injected or words which <br />
-                            don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you</p>
+                        <p className="whatt">Bringing Food Production Back To Cities</p>
+                        <p>Many of the compelling challenges we face in the world today, including climate change, obesity and a <br />
+                            lack of biodiversity, are interconnected and relate to the way we produce and transport our food. Solving <br />
+                            these issues starts by bringing sustainable food production back to the city.</p>
                     </div>
-                    <div className="col"> <br/><br/>
+                    <div className="col"> <br /><br />
                         <img src={news3} alt='img' />
-                        <p className="whatt">The Future of Farming, Smart Irrigation Solutions</p>
-                        <p>Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are many variations of <br />
-                            passages of Lorem Ipsum available, but the majority have alteration in some injected or words which <br />
-                            don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you</p>
+                        <p className="whatt">Agronomy and relation to Other Sciences</p>
+                        <p>Agronomy is a synthesis of several disciplines like crop science, which includes plant breeding, <br />
+                            crop physiology and biochemistry etc., and soil science, which includes soil fertilizers, manures etc., <br />
+                            and environmental science which includes meteorology and crop ecology.</p>
                     </div>
                 </div>
 
@@ -50,7 +51,7 @@ function News() {
                     <div class="footer-content">
                         <div class="footer-content-column">
                             <div class="footer-logo">
-                            <img src={logo} className='agri' alt='image'/>
+                                <img src={logo} className='agri' alt='image' />
                             </div>
                             <div class="footer-menu">
                                 <h2 class="footer-menu-name"> Get Started</h2>

@@ -34,9 +34,7 @@ function Home() {
             <div className="main-container">
                 <h3>Welcome to agriculture Market Place</h3>
                 <h1> Agriculture & <br /> Eco Farming </h1>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br />
-                    luctus nec ullamcorper mattis, pul
-                    vinar dapibus leo.</h5>
+                <h5>Agricultural marketing is a process that involves assembling, storage, <br/> processing, transportation, packaging, grading and distribution of different <br/> agricultural commodities across the country. .</h5>
                 <img src={pan} alt='img' />
             </div >
 
@@ -116,6 +114,7 @@ function Home() {
                 <video src={vid} className='video' autoPlay />
             </div>
             <br /><br /><br />
+
             <div className="explor">
                 <h2>Recently Completed</h2>
                 <p className="what">Explore Projects </p> <br />
@@ -147,17 +146,17 @@ function Home() {
                         <img src={f3} alt='img' />
                         <div class="carousel-caption d-none d-md-block">
                             <p className="sn">Lisa M</p>
-                            <p className="sp">I stumbled upon this organic farm while searching for a source of fresh, <br/>
-                                ethically grown produce, and I can confidently say it's a hidden gem. <br/>
-                                From the moment I set foot on the farm, the commitment <br/> to organic practices was palpable.</p>
+                            <p className="sp">I stumbled upon this organic farm while searching for a source of fresh, <br />
+                                ethically grown produce, and I can confidently say it's a hidden gem. <br />
+                                From the moment I set foot on the farm, the commitment <br /> to organic practices was palpable.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src={f2} alt='img' />
                         <div class="carousel-caption d-none d-md-block">
                             <p className="sn">james de franco</p>
-                            <p className="sp">The lush fields, free from harmful chemicals, produced the most <br/> vibrant and
-                                flavorful fruits and vegetables I've ever tasted. <br/>
+                            <p className="sp">The lush fields, free from harmful chemicals, produced the most <br /> vibrant and
+                                flavorful fruits and vegetables I've ever tasted. <br />
                                 Each bite tells a story of conscientious farming and a genuine love for the land.</p>
                         </div>
                     </div>
@@ -166,8 +165,8 @@ function Home() {
                         <div class="carousel-caption d-none d-md-block">
                             <p className="sn">Bonnie Tolbert</p>
                             <p className="sp">Beyond the exceptional quality of the produce, the farmers'
-                                dedication <br/> to sustainability and biodiversity shines through.
-                                It's not just a farm; <br/> it's a community-driven haven where the values of health, <br/>
+                                dedication <br /> to sustainability and biodiversity shines through.
+                                It's not just a farm; <br /> it's a community-driven haven where the values of health, <br />
                                 eco-consciousness, and flavor converge. </p>
                         </div>
                     </div>
