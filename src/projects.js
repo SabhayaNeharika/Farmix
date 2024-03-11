@@ -15,6 +15,7 @@ function Projects() {
         <>
         <div>
                 <img src={i01} className="imgg" alt="images" />
+                {/* <h3>Welcome to agriculture Market Place</h3> */}
                 <p className="about">PROJECTS</p>
             </div>
 

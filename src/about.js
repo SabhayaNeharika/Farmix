@@ -9,14 +9,13 @@ import d1 from './images/d1.png'
 import d2 from './images/d2.png'
 import d3 from './images/d3.png'
 import logo from './images/logo.png'
+import mainbg from './images/mainbg.png'
 
 
 function About() {
     return (
         <>
-            <div>
-                <img src={i01} className="imgg" alt="images" />
-                <p className="about">ABOUT</p>
+            <div className='about'>
             </div>
             <div className="card">
                 <div className="card mb-3">

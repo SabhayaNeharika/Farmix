@@ -1,6 +1,6 @@
 .sec-container{
     background-image: url('../images/mainbg.png');
-    height: 500px;
+    height: 700px;
     width: 100%;
 }
 .whatt{
@@ -13,3 +13,9 @@
     text-align: center;
     margin-top: 100px;
 }
+h3 {
+    padding-top: 200px;
+    padding-left: 300px;
+    font-family: 'Your Grace';
+    color: #ffffff;
+  }

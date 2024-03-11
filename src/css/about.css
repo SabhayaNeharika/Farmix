@@ -2,12 +2,10 @@
   width: 1920px;
   height: 526.5px;
 }
-
-.about {
-  color: #767e17;
-  transform: translateY(-550%);
-  font-size: 60px;
-  margin-left: 600px;
+.about{
+  background-image: url('../images/mainbg.png');
+  height: 700px;
+  width: 100%;
 }
 
 .card {
@@ -16,7 +14,13 @@
   height: 603.19px;
   margin: 0 auto;
 }
-
+.aboutt{
+  font-size: 120px;
+  padding-left: 300px;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: bolder;
+  color: #ffffff;
+}
 .t {
   width: 570px;
   height: 601px;

@@ -32,7 +32,7 @@ function Home() {
     return (
         <>
             <div className="main-container">
-                <h3>Welcome to agrios farming</h3>
+                <h3>Welcome to agriculture Market Place</h3>
                 <h1> Agriculture & <br /> Eco Farming </h1>
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br />
                     luctus nec ullamcorper mattis, pul
@@ -201,7 +201,7 @@ function Home() {
                                 <p className="b3">There are variation You need to be sure there is anything hidden in the middle of text.</p>
                                 <p className="b1"><img src={i3} alt='img' /> Quality Products </p>
                                 <p className="b3">There are variation You need to be sure there is anything hidden in the middle of text.</p>
-                                <button className="btn1">Discover More</button>
+                                <button className="btn3">Discover More</button>
                             </div>
                         </div>
                     </div>

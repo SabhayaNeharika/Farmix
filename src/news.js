@@ -9,7 +9,8 @@ function News() {
     return (
         <>
             <div className="sec-container">
-                <h1 style={{ paddingTop: 190, paddingLeft: 600 }}>NEWS</h1>
+            <h3>Welcome to agriculture Market Place</h3>
+                <h1 style={{ paddingTop: 10, paddingLeft: 390 }}>NEWS</h1>
             </div>
 
             <div className="newcard">
