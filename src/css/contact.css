@@ -15,7 +15,9 @@
     text-align: center;
   
   }
-  
+  .in{
+    margin-left: 33px;
+  }
   /* Animation webkit */
   @-webkit-keyframes myfirst {
     0% {

@@ -16,22 +16,22 @@ function Contact() {
 
                     <div class="formgroup" id="name-form">
                         <label className='nametext' for="name">Enter Your Name:</label>
-                        <input type="text" id="name" name="name" />
+                        <input className='in' type="text" id="name" name="name" />
                     </div>
 
                     <div class="formgroup" id="email-form">
                         <label className='nametext' for="email">Enter Your E-mail Id:</label>
-                        <input type="email" id="email" name="email" />
+                        <input className='in' type="email" id="email" name="email" />
                     </div>
 
                     <div class="formgroup" id="phone number">
                         <label className='nametext' for="phone number">Enter Your Phone No.:</label>
-                        <input type="phone number" id="phone number" name="phone number" />
+                        <input className='in' type="phone number" id="phone number" name="phone number" />
                     </div>
 
                     <div class="formgroup" id="message-form">
                         <label className='nametext' for="message">Enter Your Message:</label>
-                        <textarea id="message" name="message"></textarea>
+                        <textarea className='in' id="message" name="message"></textarea>
                     </div>
 
                     <input type="submit" value="Send your message!" />
