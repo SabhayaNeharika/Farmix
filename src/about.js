@@ -19,6 +19,7 @@ function About() {
             <h3>Welcome to agriculture Market Place</h3>
                 <h1 style={{ paddingTop: 10, paddingLeft: 390 }}>ABOUT</h1>
             </div>
+            <br/><br/>
             <div className="card">
                 <div className="card mb-3">
                     <div className="row g-0">

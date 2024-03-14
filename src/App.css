@@ -9,10 +9,6 @@ html {
   overflow-x: hidden;
 }
 
-* {
-  margin: 0
-}
-
 .nav {
   margin: 0 auto;
   display: flex;
@@ -39,7 +35,7 @@ html {
 }
 
 .nav-link:hover {
-  color: #E54925;
+  color: #E54925 !important;
 }
 
 .nav-item {
@@ -315,13 +311,11 @@ h4 {
   margin-top: 200px;
 }
 
-
 .pg-footer {
   font-family: 'Roboto', sans-serif;
   background-color: #061700;
   margin-top: 100px;
 }
-
 
 .footer {
   background-color: rgb(32, 151, 64);
@@ -362,7 +356,6 @@ h4 {
   color: #fff;
   text-decoration: none;
 }
-
 
 .footer-menu {
   margin-top: 30px;
@@ -553,10 +546,27 @@ h4 {
   text-decoration: none;
 }
 
-/* Media Query For different screens */
+.logo {
+  height: 100px;
+  width: 200px;
+}
+
+.btn3 {
+  background-color: rgb(11, 154, 11);
+  margin-left: 200px;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+}
+
+.btn3:hover {
+  background: #EEC044;
+  color: #061161;
+  transition: 0.5s;
+}
+
 @media (min-width:320px) and (max-width:479px) {
 
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -568,7 +578,6 @@ h4 {
 
 @media (min-width:480px) and (max-width:599px) {
 
-  /* smartphones, Android phones, landscape iPhone */
   .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -580,7 +589,6 @@ h4 {
 
 @media (min-width:600px) and (max-width: 800px) {
 
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -589,22 +597,6 @@ h4 {
     position: relative;
   }
 }
-
-@media (min-width:801px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-
-}
- @media (min-width:1025px) {
-  /* big landscape tablets, laptops, and desktops */
-
-}
-
-@media (min-width:1281px) {
-  /* hi-res laptops and desktops */
-
-}
-
-
 
 
 @media (min-width: 760px) {
@@ -625,26 +617,6 @@ h4 {
   }
 }
 
-
-.logo {
-  height: 100px;
-  width: 200px;
-}
-
-.btn3 {
-  background-color: rgb(11, 154, 11);
-  margin-left: 200px;
-  width: 200px;
-  height: 50px;
-  color: #fff;
-}
-
-.btn3:hover {
-  background: #EEC044;
-  color: #061161;
-  transition: 0.5s;
-}
-
 @media (min-width: 568px) {
 
   .t1,
@@ -656,5 +628,92 @@ h4 {
 
   .card-titleee {
     text-align: center;
+  }
+}
+
+@media (max-width: 567px) {
+  .main-container {
+    background-size: cover;
+    height: auto;
+  }
+
+  h1,
+  h3,
+  h5 {
+    padding-left: 20px;
+  }
+
+  .main-container img {
+    margin-left: 20px;
+  }
+
+  .cardd {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .cardd img {
+    margin-left: calc(50% - 45px);
+  }
+
+  .t1 {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .t2 {
+    border-radius: 0;
+    transform: translateY(-200px);
+  }
+
+  .card-titleee {
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  .get,
+  .there,
+  .are,
+  h4,
+  .btn1,
+  #grow,
+  #grows {
+    margin-left: 20px;
+    transform: translateY(0);
+  }
+
+  .offer {
+    margin-top: 100px;
+  }
+
+  .what {
+    text-align: left;
+  }
+
+  #row1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .video {
+    margin-top: 50px;
+  }
+
+  .carousel-innerr img {
+    margin-left: calc(50% - 75px);
+  }
+
+  .card-last {
+    margin-top: 50px;
+  }
+
+  .cardd-last img {
+    width: calc(100% - 200px);
+    margin-left: 20px;
+  }
+
+  .blog {
+    margin-top: 100px;
   }
 }
