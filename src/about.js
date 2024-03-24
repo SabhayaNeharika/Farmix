@@ -9,17 +9,25 @@ import d1 from './images/d1.png'
 import d2 from './images/d2.png'
 import d3 from './images/d3.png'
 import logo from './images/logo.png'
-import mainbg from './images/mainbg.png'
+import { Link, useNavigate } from 'react-router-dom';
+
 
 
 function About() {
+
+    const navigate = useNavigate();
+
+    const handleClick3 = () => {
+        navigate('/discover3',{ replace: true });
+    };
+
     return (
         <>
-            <div className="sec-container">
-            <h3>Welcome to agriculture Market Place</h3>
+            <div className="sec-container2">
+                <h3>Welcome to agriculture Market Place</h3>
                 <h1 style={{ paddingTop: 10, paddingLeft: 390 }}>ABOUT</h1>
             </div>
-            <br/><br/>
+            <br /><br />
             <div className="card">
                 <div className="card mb-3">
                     <div className="row g-0">
@@ -35,18 +43,20 @@ function About() {
                                 <p className="card-text"><small class="text-body-secondary"></small></p>
                                 <p className="are">There are many variations of passages of lorem ipsum available but the
                                     <br />majority have suffered alteration in some form by injected humor or
-                                    <br />random word which don’t look even.</p> <br/><br/><br/><br/><br/><br/>
+                                    <br />random word which don’t look even.</p> <br /><br /><br /><br /><br /><br />
                                 <h4><img src={Frame} className="icon" alt="image" />Suspe ndisse suscipit sagittis leo</h4>
                                 <h4><img src={Frame} className="icon" alt="image" />Entum estibulum disgnissim posuere</h4>
                                 <h4><img src={Frame} className="icon" alt="image" />Lorem Ipsum on the tend to repeat</h4>
-                                <button className="btn2">Discover More</button>
+                                <button className="btn2" onClick={handleClick3}>
+                                    Discover More
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div>
-                <video src={video} className='video' autoPlay />
+                <video src={video} className='video' autoPlaytrue />
             </div>
             <div>
                 <p className="team">Team Members</p>
@@ -74,7 +84,7 @@ function About() {
                     <div class="footer-content">
                         <div class="footer-content-column">
                             <div class="footer-logo">
-                            <img src={logo} className='agri' alt='image'/>
+                                <img src={logo} className='agri' alt='image' />
                             </div>
                             <div class="footer-menu">
                                 <h2 class="footer-menu-name"> Get Started</h2>

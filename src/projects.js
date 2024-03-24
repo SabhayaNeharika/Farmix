@@ -13,7 +13,7 @@ import logo from './images/logo.png'
 function Projects() {
     return (
         <>
-        <div className="sec-container">
+        <div className="sec-container3">
             <h3>Welcome to agriculture Market Place</h3>
                 <h1 style={{ paddingTop: 10, paddingLeft: 300 }}>PROJECTS</h1>
             </div>

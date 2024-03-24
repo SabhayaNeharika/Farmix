@@ -49,9 +49,9 @@
   }
   
   .fish {
-    background-image: url('http://www.geertjanhendriks.nl/codepen/form/fish.png');
+    background-image: url('../images/vegetables.png');
     width: 235px;
-    height: 104px;
+    height: 300px;
     margin-left: -235px;
     position: absolute;
     animation: myfirst 24s;

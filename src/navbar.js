@@ -64,11 +64,11 @@ function Navbar() {
                   PROJECTS
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="/news" className="nav-link">
                   NEWS
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link to="/shop" className="nav-link">
                   SHOPS

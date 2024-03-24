@@ -35,7 +35,7 @@ html {
 }
 
 .nav-link:hover {
-  color: #E54925 !important;
+  color: #E54925;
 }
 
 .nav-item {
@@ -46,27 +46,6 @@ html {
 
 }
 
-.main-container {
-  background-image: url('../src/images/mainbg.png');
-  height: 810px;
-  width: 100%;
-}
-
-h1 {
-  font-size: 120px;
-  padding-left: 300px;
-  font-family: "Covered By Your Grace", cursive;
-  font-weight: bolder;
-  color: #ffffff;
-}
-
-h3 {
-  padding-top: 200px;
-  padding-left: 300px;
-  font-family: 'Your Grace';
-  color: #ffffff;
-}
-
 h2 {
   text-align: center;
   font-family: "Covered By Your Grace", cursive;
@@ -74,15 +53,39 @@ h2 {
   font-size: 40px;
 }
 
-h5 {
-  padding-left: 300px;
-  font-family: 'Your Grace';
-  color: #ffffff;
-}
-
 .main-container {
   background-image: url('../src/images/mainbg.png');
   height: 810px;
+  width: 100%;
+}
+
+.sec-container2 {
+  background-image: url('./images/mainbg2.png');
+  height: 700px;
+  width: 100%;
+}
+
+.sec-container3 {
+  background-image: url('./images/mainbg3.png');
+  height: 700px;
+  width: 100%;
+}
+
+.sec-container4 {
+  background-image: url('./images/mainbg4.png');
+  height: 700px;
+  width: 100%;
+}
+
+.sec-container5 {
+  background-image: url('./images/mainbg5.png');
+  height: 700px;
+  width: 100%;
+}
+
+.sec-container6 {
+  background-image: url('./images/mainbg6.png');
+  height: 700px;
   width: 100%;
 }
 
@@ -120,7 +123,6 @@ h5 {
   border-radius: 30px;
   border: 2px;
   box-shadow: 10px 10px 10px 1px #363030;
-
 }
 
 .cardd img {
@@ -173,21 +175,13 @@ h6 {
   padding-left: 200px;
 }
 
-.get {
-  margin-left: 200px;
-  font-size: 24px;
-}
 
 .there {
-  margin-left: 200px;
-  margin-top: 20px;
   color: #4BAF47;
   font-size: 26px;
 }
 
 .are {
-  margin-left: 200px;
-  margin-top: 20px;
   color: gray;
 }
 
@@ -196,14 +190,23 @@ h4 {
   transform: translateY(-140px);
 }
 
+.link-button {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link-button:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
 .btn1 {
   background-color: rgb(11, 154, 11);
   margin-left: 200px;
   width: 200px;
   height: 50px;
-  border: none;
-  color: #fff;
   transform: translateY(-190%);
+  border: none;
 }
 
 .btn1:hover {
@@ -248,7 +251,7 @@ h4 {
 
 .video {
   height: 600px;
-  width: 100%;
+  width: 100% !important;
   margin-top: 100px;
 }
 
@@ -307,15 +310,13 @@ h4 {
   padding-left: 50px;
 }
 
-.blog {
-  margin-top: 200px;
-}
 
 .pg-footer {
   font-family: 'Roboto', sans-serif;
   background-color: #061700;
   margin-top: 100px;
 }
+
 
 .footer {
   background-color: rgb(32, 151, 64);
@@ -356,6 +357,7 @@ h4 {
   color: #fff;
   text-decoration: none;
 }
+
 
 .footer-menu {
   margin-top: 30px;
@@ -557,6 +559,7 @@ h4 {
   width: 200px;
   height: 50px;
   color: #fff;
+  border: none;
 }
 
 .btn3:hover {
@@ -598,7 +601,6 @@ h4 {
   }
 }
 
-
 @media (min-width: 760px) {
   .footer-content {
     margin-left: auto;
@@ -617,103 +619,42 @@ h4 {
   }
 }
 
-@media (min-width: 568px) {
-
-  .t1,
-  .t2 {
-    max-width: auto;
-    height: auto;
-    margin: auto;
+@media (max-width:567px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
-  .card-titleee {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 70px;
+    font-family: "Covered By Your Grace", cursive;
+    color: #ffffff;
     text-align: center;
   }
-}
 
-@media (max-width: 567px) {
-  .main-container {
-    background-size: cover;
-    height: auto;
+  h3 {
+    font-family: 'Your Grace';
+    color: #ffffff;
   }
 
-  h1,
-  h3,
   h5 {
-    padding-left: 20px;
+    font-family: 'Your Grace';
+    color: #ffffff;
   }
 
-  .main-container img {
-    margin-left: 20px;
+  .main-container {
+    background-image: url('../src/images/mainbg.png');
+    height: 810px;
+    width: 100%;
   }
 
-  .cardd {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .cardd img {
-    margin-left: calc(50% - 45px);
-  }
-
-  .t1 {
-    width: auto;
-    height: auto;
-    border-radius: 0;
-  }
-
-  .t2 {
-    border-radius: 0;
-    transform: translateY(-200px);
-  }
-
-  .card-titleee {
-    padding-left: 20px;
-    text-align: left;
-  }
-
-  .get,
-  .there,
-  .are,
-  h4,
-  .btn1,
-  #grow,
-  #grows {
-    margin-left: 20px;
-    transform: translateY(0);
-  }
-
-  .offer {
-    margin-top: 100px;
-  }
-
-  .what {
-    text-align: left;
-  }
-
-  #row1 {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .video {
-    margin-top: 50px;
-  }
-
-  .carousel-innerr img {
-    margin-left: calc(50% - 75px);
-  }
-
-  .card-last {
-    margin-top: 50px;
-  }
-
-  .cardd-last img {
-    width: calc(100% - 200px);
-    margin-left: 20px;
-  }
-
-  .blog {
-    margin-top: 100px;
+  h2 {
+    text-align: center;
   }
 }

@@ -9,6 +9,10 @@ import Contact from './contact';
 import Signup from './signup';
 import Login from './login';
 import Navbar from  './navbar';
+import Discover from './discover';
+import Discover2 from './discover2';
+import Discover3 from './discover3';
+
 
 function App() {
   return (
@@ -25,6 +29,9 @@ function App() {
         <Route exact path='/contact' element={<Contact />} />
         <Route exact path='/signup' element={<Signup/>} />
         <Route exact path='/login' element={<Login />} />
+        <Route exact path='/discover' element={<Discover />} />
+        <Route exact path='/discover2' element={<Discover2 />} />
+        <Route exact path='/discover3' element={<Discover3 />} />
     </Routes>
     </Router>
   );

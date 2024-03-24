@@ -12,9 +12,6 @@ import c10 from './images/c10.png'
 import c11 from './images/c11.png'
 import c12 from './images/c12.png'
 import c13 from './images/c13.png'
-import c14 from './images/c14.png'
-import c15 from './images/c15.png'
-import c16 from './images/c16.png'
 import cart1 from './images/cart1.png'
 import cart2 from './images/Vector2.png'
 import icon from './images/Icon.png'
@@ -26,15 +23,27 @@ import f1 from './images/f1.png'
 import f2 from './images/f2.png'
 import f3 from './images/f3.png'
 import logo from './images/logo.png'
+import { Link, useNavigate } from 'react-router-dom';
+
 
 
 function Home() {
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/discover',{ replace: true });
+    };
+
+    const handleClick2 = () => {
+        navigate('/discover2',{ replace: true });
+    };
     return (
         <>
-            <div className="main-container">
+            <div className="main-container" >
                 <h3>Welcome to agriculture Market Place</h3>
                 <h1> Agriculture & <br /> Eco Farming </h1>
-                <h5>Agricultural marketing is a process that involves assembling, storage, <br/> processing, transportation, packaging, grading and distribution of different <br/> agricultural commodities across the country. .</h5>
+                <h5>Agricultural marketing is a process that involves assembling, storage, <br /> processing, transportation, packaging, grading and distribution of different <br /> agricultural commodities across the country. .</h5>
                 <img src={pan} alt='img' />
             </div >
 
@@ -84,7 +93,9 @@ function Home() {
                                 <h4 id='grows'>Tips for ripening Your Fruits</h4>
                                 <h4><img src={icon} style={{ marginRight: 20 }} alt='img' />Lorem Ipsum is not simply random text.</h4>
                                 <h4><img src={icon} style={{ marginRight: 20 }} alt='img' />Making this the first true generator on the internet.</h4>
-                                <button className="btn1">Discover More</button>
+                                <button className="btn1" onClick={handleClick}>
+                                    Discover More
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -200,29 +211,15 @@ function Home() {
                                 <p className="b3">There are variation You need to be sure there is anything hidden in the middle of text.</p>
                                 <p className="b1"><img src={i3} alt='img' /> Quality Products </p>
                                 <p className="b3">There are variation You need to be sure there is anything hidden in the middle of text.</p>
-                                <button className="btn3">Discover More</button>
+                                <button className="btn3" onClick={handleClick2}>
+                                    Discover More
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div className="blog">
-                <h2>From the Blog</h2>
-                <p className="what">News & Articles</p>
-                <div className="row" id="row1">
-                    <div className="col-md-4">
-                        <img src={c14} alt='img' />
-                    </div>
-                    <div className="col-md-4">
-                        <img src={c16} alt='img' />
-                    </div>
-                    <div className="col-md-4">
-                        <img src={c15} alt='img' />
-                    </div>
-
-                </div>
-            </div>
+<br/> <br/>
             <div class="pg-footer">
                 <footer class="footer">
                     <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">

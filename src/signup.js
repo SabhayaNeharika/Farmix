@@ -4,6 +4,8 @@ import { auth } from './firebase';
 import { useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 
+
+
 const Signup = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -13,11 +15,13 @@ const Signup = () => {
     createUserWithEmailAndPassword(auth, email, password).then((auth) => {
       // it successfully created a new user with email and password
       if (auth) {
-        navigate('/login')
+        navigate('/otp')
       }
     })
       .catch(error => alert(error.message))
   };
+
+
   return (
     <>
       <body>
@@ -46,8 +50,7 @@ const Signup = () => {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)} />
                 </div>
-                {/* <input type="submit" value="Login" class="btn solid" /> */}
-                <button className='btn solid' type='submit' onClick={handleSignup}>SIGNUP</button>
+                <button className='btn' type='submit' onClick={handleSignup}>SIGNUP</button>
               </form>
             </div>
           </div>
@@ -57,27 +60,11 @@ const Signup = () => {
               <div class="content">
                 <h3>New here ?</h3>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-                  ex ratione. Aliquid!
-                </p>
-                {/* <button class="btn transparent" id="sign-up-btn">
-              SIGNUP
-            </button> */}
-              </div>
-              <img src="img/log.svg" class="image" alt="" />
-            </div>
-            <div class="panel right-panel">
-              <div class="content">
-                <h3>New Here ?</h3>
-                <p>
                   Welcome! To Our Web-Site. Please Create Your Account Here.
                 </p>
-                <button class="btn transparent" id="sign-in-btn">
-                  Sign in
-                </button>
               </div>
-              <img src="img/register.svg" class="image" alt="" />
             </div>
+
           </div>
         </div>
       </body>
